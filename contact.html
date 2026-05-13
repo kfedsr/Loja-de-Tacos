@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tiago Cobalchini">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" >
+    <title>Our Contact</title>
+</head>
+<body id="Top">
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#LTS">About LTS</a></li>
+                <li><a href="index.html#MENU">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/tacos_close_up_400x260.png" alt="Close up of tacos" width="400" height="260">
+            <figcaption>Little Taco Shop Tacos</figcaption>
+        </figure>
+    </header>
+
+    <main>
+        <h2>Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Send Us a Message</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autocomplete="name" placeholder="your name here" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="your email here" required>
+            </p>
+            <p>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" placeholder="your message here" rows="10" cols="40" maxlength="500" required></textarea>
+            </p>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </fieldset> 
+        </form>
+
+        <h2>Our Location</h2>
+        <address>
+            <p>555 Taco Street, Suite Tacos</p>
+            <p>Tacotown, TA 74605</p>
+            <p>
+            Phone: <a href="tel:+15555555555">(555) 555-5555</a>
+            </p>
+        </address>
+        
+        <a href="#Top">Back to Top</a>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 The Little Taco Shop</p>
+    </footer>
+    
+</body>
+</html>
